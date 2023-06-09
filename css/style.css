@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:80%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.car{
+    display: flex;
+    justify-content: right;
+}
+img{
+    width:100%;
+}
+.row .card{
+    width:25%;
+    padding: 20px;
+}
+.content{
+    padding: 10px;
+}
+p{
+    padding: 10px 0 20px;
+}
+a{
+    padding: 10px;
+    background-color: green;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+.card1{
+    display: flex;
+}
+.cart .img{
+    width:30%;
+}
+input{
+    width:30px;
+    text-align: center;
+}
+.bn1{
+    padding: 2px 4px;
+}
+.bn2{
+    padding: 2px;
+}
